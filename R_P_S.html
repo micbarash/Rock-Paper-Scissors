@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scissors</title>
     <meta charset="utf-8"/>
   </head>
   <body>
-    <h1 id="heady">Rock Paper Scissors</h1>
-    <h2>Make your choice:</h2>
+    <h1 align='center'>Rock Paper Scissors</h1>
+    <h2 align='center'>Make your choice:</h2>
     <div id="playerSelection">
       <button id="rock">ROCK</button>
       <button id="paper">PAPER</button>
       <button id="scissors">SCISSORS</button>
     </div>
-    <h3></h3>
+    <h3 align='center'></h3><br />
+    <div id="score">
+      <h3 class="player">PLAYER SCORE: 0</h3>
+      <h3 class="computer">COMPUTER SCORE: 0</h3>
+    </div>
+    <div id="declareWinner">
+      <h1 align='center' id="winner">NO WINNER YET</h1>
+    </div>
     <script src="script2.js"></script>
   </body>
 </html>

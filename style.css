@@ -1,0 +1,13 @@
+
+#playerSelection {
+  display: inline;
+  padding: 0 570px;
+}
+#score {
+  display: inline;
+  padding: 0 430px;
+}
+.player, .computer {
+  display: inline;
+  margin: 30px;
+}
